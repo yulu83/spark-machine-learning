@@ -7,6 +7,6 @@ Build a simple linear regression model and save the model onto disk. (refer to c
 
 The Streaming piple line demostrates a flow like the following:
 
-Kafka input topic -> Spark (apply linear regression model to do prediction) -> Kafka output topic
+# Kafka input topic -> Spark (apply linear regression model to do prediction) -> Kafka output topic
 
 The Kafka streaming code can be found in com/sparkTutorial/streaming/StreamingKafkaExample.scala
